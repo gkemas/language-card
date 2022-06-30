@@ -1,6 +1,7 @@
 
 import {languages} from '../../helpers/data'
-
+import "./Card.css";
+import Item from '../item/Item';
 
 const Card = () => {
     return(
