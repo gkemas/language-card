@@ -3,8 +3,15 @@ import "./Item.css"
 const Item =  ({card}) =>{
  const{name,img,options} =card
  const [logo,setlogo]=useState(true)
-    return(
-        <div className="card" onClick={()=>setlogo(!logo)}>
+ const handleClick= () =>{
+      setlogo(!logo)
+ 
+         
+    
+
+ }   
+ return(
+        <div className="card" onClick={handleClick}>
        {logo ? (
 
     <div>

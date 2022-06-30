@@ -1,16 +1,31 @@
 body {
-    margin:0
+  margin: 0;
 }
 
-
-.cards-area-container{
-    background-color: orange;
-    height:500px;
+.cards-area-container {
+  background-color: #F48B29;
+  height: 650px;
+  width: 60vw;
+  display: flex;
+  flex-direction:column;
+  max-width: 400px;
 }
-.language-title{
-    height: 10px;
-
+/* .language-title {
+  height: 10px;
+  
+} */
+.language {
+  width: 100%;
+  text-align: center;
+  height: 10%;
 }
-.cards-container{
-    height: 300px;
+.cards-container {
+  height: 550px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+  
 }
