@@ -3,7 +3,7 @@ import "./Item.css";
 const Item = ({ card }) => {
   const { name, img, options } = card;
   const [logo, setlogo] = useState(true);
-//fd
+
   const keeptrue = () => {
     setlogo(true);
   };
